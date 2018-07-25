@@ -13,7 +13,7 @@ end
 
 upcased_cities = []
 
-summer_olympics.each do |city|
+summer_olympics.each do |city.upcase|
   upcased_cities << city.upcase
   puts upcased_cities
 end 
