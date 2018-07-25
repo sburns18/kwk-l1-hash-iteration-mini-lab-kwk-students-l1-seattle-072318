@@ -11,6 +11,7 @@ summer_olympics.each do |city, year|
   puts "The #{year} summer olympics took place in #{city}."
 end
 
+
 upcased_cities = []
 
 summer_olympics.each do |city|
