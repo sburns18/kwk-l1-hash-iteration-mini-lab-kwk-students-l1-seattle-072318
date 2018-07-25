@@ -13,13 +13,4 @@ end
 
 upcased_cities = []
 
-summer_olympics.each do | upcased_cities >> city|
-  puts #{city}.upcase
-end 
-
-
-
-
-# upcased_cities = 
-
-
+summer_olympics.each do |city|
