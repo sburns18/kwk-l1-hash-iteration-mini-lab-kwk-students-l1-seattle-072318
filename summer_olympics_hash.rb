@@ -15,7 +15,8 @@ end
 upcased_cities = []
 
 summer_olympics.each do |city|
-  upcased_cities << city
+  upcased_cities << city.upcase
+  puts upcased_cities
 end 
 
-puts upcased_cities
+
