@@ -6,13 +6,18 @@ summer_olympics = {
   :london => "2012"
 }
 
+
 summer_olympics.each do |city, year|
   puts "The #{year} summer olympics took place in #{city}."
 end
 
-summer_olympics.each do |city|
+upcased_cities = []
+
+summer_olympics.each do | upcased_cities >> city|
   puts #{city}.upcase
-  
+end 
+
+
 
 
 # upcased_cities = 
